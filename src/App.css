@@ -1,0 +1,275 @@
+
+  #PeriodicTable
+  {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+      grid-template-rows:auto auto auto auto;
+      gap: 5px;
+      margin: 10px;
+      padding: 20px;
+     
+      
+  }
+  #PeriodicTable>div
+  {
+   
+      text-align: center;
+      font-size: large;
+      border-width: 2px;
+      padding: 30px;
+      
+      
+     
+  }
+  
+  
+  /*First color*/
+  #Aa,#Bb,#Ff,#Gg,#Oo,#Pp,#Qq,#Xx,#Yy
+  {
+      color:orange;
+      border:1px solid orange;
+      
+  }
+  #Aa
+  {
+      grid-column-start: 1;
+      grid-column-end: 2;   
+  }
+  #Bb
+  {
+       grid-column-start:2;
+      grid-column-end: 3;
+  }
+  #Ff
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:1;
+      grid-column-end: 2;
+  }
+  #Gg
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:2;
+      grid-column-end: 3;
+  }
+  #Oo
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:1;
+      grid-column-end: 2;
+  }
+  #Pp
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:2;
+      grid-column-end: 3;
+  }
+  #Qq
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:3;
+      grid-column-end: 4;
+  }
+  
+  #Xx
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:2;
+      grid-column-end: 3;
+  }
+  
+  
+  #Yy
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:3;
+      grid-column-end: 4;
+  }
+  
+  /*2nd color */
+  #Hh,#Ii,#Jj,#Rr,#Ss,#Tt,#Zz,#A1,#A2
+  {
+      color:darkmagenta;
+      border:2px solid darkmagenta;
+      
+  }
+  #Hh
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:3;
+      grid-column-end: 4;
+  }
+  #Ii
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:4;
+      grid-column-end: 5;
+  }
+  #Jj
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:5;
+      grid-column-end: 6;
+  }
+  #Rr
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:4;
+      grid-column-end: 5;
+  }
+  #Ss
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:5;
+      grid-column-end: 6;
+  }
+  
+  #Tt
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:6;
+      grid-column-end: 7;
+  }
+  #Zz
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:4;
+      grid-column-end: 5;
+  }
+  
+  #A1
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:5;
+      grid-column-end: 6;
+  }
+  
+  #A2
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:6;
+      grid-column-end: 7;
+  }
+  /*thrid color begin*/
+  
+  #A3,#A4,#Cc,#Dd,#Ee,#Kk,#Ll,#Mm,#Uu
+  {
+      color:deeppink;
+      border:1px solid deeppink;
+      
+  }
+  #Cc
+  {
+      grid-column-start:7;
+      grid-column-end: 8;
+     
+  }
+  #Dd
+  {
+      grid-column-start:8;
+      grid-column-end: 9;
+  }
+  #Ee
+  {
+      grid-column-start:9;
+      grid-column-end: 10;
+  }
+  #Kk
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:6;
+      grid-column-end: 7;
+  }
+  #Ll
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:7;
+      grid-column-end: 8;
+  }
+  
+  #Uu
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:7;
+      grid-column-end: 8;
+  }
+  #Mm
+  {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start:8;
+      grid-column-end: 9;
+  }
+  #A3
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:7;
+      grid-column-end: 8;
+  }
+  #A4
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:8;
+      grid-column-end: 9;
+  }
+  
+  
+  /*fourth color*/
+  #Vv,#Ww,#Nn,#A5
+  {
+      color:darkolivegreen;
+      border:1px solid darkolivegreen;
+        
+  }
+  
+  #Vv
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:8;
+      grid-column-end: 9;
+  }
+  #Ww
+  {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start:9;
+      grid-column-end: 10;
+  }
+  
+  #Nn
+  {
+      grid-row-start:2;
+      grid-row-end:3;
+      grid-column-start:9;
+      grid-column-end:10;
+  }
+  
+  #A5
+  {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start:9;
+      grid-column-end: 10;
+  }
